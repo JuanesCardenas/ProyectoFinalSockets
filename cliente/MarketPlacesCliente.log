@@ -1,0 +1,250 @@
+nov 06, 2024 6:19:47 P. M. com.proyectofinal.cliente.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 06, 2024 6:20:38 P. M. com.proyectofinal.cliente.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 06, 2024 6:21:33 P. M. com.proyectofinal.cliente.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 06, 2024 6:21:39 P. M. com.proyectofinal.cliente.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 07, 2024 9:47:51 A. M. com.proyectofinal.cliente.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 07, 2024 10:30:34 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 07, 2024 10:30:57 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: javafx.fxml.LoadException: Error resolving onAction='#PublicarBoton', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/perfilVendedor.fxml:42
+Error al cambiar de escena.
+nov 07, 2024 11:11:35 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 11:13:30 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 11:14:35 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error al agregar producto: java.net.SocketException: Socket closed
+nov 07, 2024 11:17:23 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 11:18:04 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error al agregar producto: java.net.SocketException: Socket closed
+nov 07, 2024 11:20:12 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 11:20:49 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error al agregar producto: java.net.SocketException: Socket closed
+nov 07, 2024 11:25:16 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error al agregar producto: java.net.SocketException: Socket closed
+nov 07, 2024 11:54:35 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error de conexión con el servidor.
+nov 07, 2024 11:55:18 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 11:56:26 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error al agregar producto: java.net.SocketException: Socket closed
+nov 07, 2024 11:57:30 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 11:59:40 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error al agregar producto: java.net.SocketException: Socket closed
+nov 07, 2024 12:09:36 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error de conexión con el servidor.
+nov 07, 2024 12:11:08 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error al agregar producto: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 12:11:53 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Producto agregado exitosamente.
+nov 07, 2024 12:16:47 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error al agregar producto: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 12:16:54 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error al agregar producto: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 12:17:27 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Producto agregado exitosamente.
+nov 07, 2024 12:24:19 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: No se pudo cargar la imagen: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 12:24:59 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: No se pudo cargar la imagen: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 1:38:50 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Producto agregado exitosamente.
+nov 07, 2024 2:59:02 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 07, 2024 3:00:11 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 07, 2024 3:02:10 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 07, 2024 3:03:15 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.io.EOFException
+nov 07, 2024 3:03:51 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana para agregar producto: javafx.fxml.LoadException: Error resolving onAction='#cargarImagen', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/agregarProducto.fxml:20
+
+nov 07, 2024 3:04:48 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.io.EOFException
+nov 07, 2024 3:27:21 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 07, 2024 3:27:48 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.io.EOFException
+nov 07, 2024 3:35:40 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 07, 2024 3:36:00 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.io.EOFException
+nov 07, 2024 3:41:45 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: David
+nov 07, 2024 3:42:33 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 07, 2024 3:42:40 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 3:57:57 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: El vendedor David existe
+nov 07, 2024 11:58:28 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 07, 2024 11:59:09 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 08, 2024 12:02:28 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 08, 2024 12:15:10 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 08, 2024 12:17:19 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 08, 2024 12:18:46 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 10, 2024 6:48:05 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Juanes
+nov 10, 2024 6:48:17 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 10, 2024 6:49:12 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 10, 2024 6:49:24 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 10, 2024 6:50:06 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 10, 2024 6:50:20 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 10, 2024 6:50:41 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 10, 2024 6:52:43 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 10, 2024 6:54:08 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 10, 2024 6:54:20 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.io.EOFException
+nov 10, 2024 7:05:53 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error de conexión con el servidor.
+nov 10, 2024 7:06:08 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Juanes
+nov 15, 2024 3:23:39 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 15, 2024 4:00:14 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: javafx.fxml.LoadException: 
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/publicacion.fxml:10
+
+nov 15, 2024 5:19:42 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: 
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml:10
+
+nov 15, 2024 5:20:20 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 15, 2024 5:21:34 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 15, 2024 5:23:51 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 15, 2024 5:28:02 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: 
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml:30
+
+nov 15, 2024 5:29:02 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: 
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml:31
+
+nov 16, 2024 8:57:22 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: No controller specified.
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml:34
+
+nov 16, 2024 8:57:28 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: No controller specified.
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml:34
+
+nov 16, 2024 9:01:13 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 9:33:49 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 9:35:20 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 9:35:42 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 9:50:06 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 9:51:16 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 9:51:34 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 10:14:58 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 16, 2024 10:15:29 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 16, 2024 10:25:15 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 16, 2024 10:28:36 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 10:29:46 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 10:43:26 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 10:43:41 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 10:44:13 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 10:49:30 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 16, 2024 10:50:39 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 10:59:16 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 16, 2024 10:59:29 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 16, 2024 11:14:10 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Error al cargar productos: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 11:47:04 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+GRAVE: Error de conexión con el servidor.
+nov 16, 2024 11:47:40 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+nov 16, 2024 12:07:22 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: Felipe
+nov 16, 2024 12:17:30 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: F
+nov 16, 2024 12:22:32 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 16, 2024 12:32:49 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: F
+nov 16, 2024 12:36:25 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: f
+nov 16, 2024 12:36:31 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.
+nov 16, 2024 12:43:14 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: f
+nov 16, 2024 12:56:06 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: f
+nov 16, 2024 12:57:43 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: f
+nov 16, 2024 1:02:40 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: f
+nov 16, 2024 1:10:46 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: f
+nov 16, 2024 1:11:06 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: 
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml
+
+nov 16, 2024 1:12:56 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: f
+nov 16, 2024 1:17:24 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: f
+nov 16, 2024 1:17:58 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: 
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml
+
+nov 16, 2024 1:20:08 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: 
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml
+
+nov 16, 2024 1:23:55 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: 
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml
+
+nov 16, 2024 1:27:21 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: No se pudo abrir la ventana de eliminación.javafx.fxml.LoadException: 
+/C:/Users/FELIPE/Downloads/cliente/target/classes/com/proyectofinal/eliminarProductos.fxml
+
+nov 16, 2024 1:40:01 P. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+INFORMACIÓN: Vendedor registrado: f

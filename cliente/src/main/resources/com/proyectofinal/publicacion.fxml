@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="309.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proyectofinal.controlador.PublicacionController">
+   <children>
+      <Label fx:id="nombreProductoLabel" layoutX="13.0" layoutY="12.0" text="Producto:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="autorLabel" layoutX="14.0" layoutY="72.0" text="Publicado por:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="fechaPublicacionLabel" layoutX="15.0" layoutY="96.0" text="Publicado el:" textFill="#4e4e4e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="14.0" layoutY="172.0" prefHeight="97.0" prefWidth="308.0">
+         <content>
+            <AnchorPane fx:id="comentariosCampo" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="291.0" />
+         </content>
+      </ScrollPane>
+      <Label layoutX="58.0" layoutY="123.0" text="Me Gusta" textFill="#00a81c" />
+      <ImageView fx:id="imagenCampo" fitHeight="173.0" fitWidth="200.0" layoutX="343.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="13.0" layoutY="148.0" text="Comentarios:" textFill="#4e4e4e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="agregarComentarioBoton" alignment="CENTER" layoutX="383.0" layoutY="228.0" onAction="#AgregarComentario" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #007bff; -fx-text-fill: white;" text="Agregar Comentario" />
+      <Button fx:id="meGustaBoton" alignment="CENTER" layoutX="383.0" layoutY="194.0" onAction="#darMeGusta" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #28a745; -fx-text-fill: white;" text="Me Gusta" />
+      <Label layoutX="13.0" layoutY="117.0" text="👍" textFill="#00a81c">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="likeLabel" layoutX="34.0" layoutY="123.0" text="like" textFill="#00a81c" />
+      <Label fx:id="precioProductoLabel" layoutX="14.0" layoutY="40.0" text="Precio:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
