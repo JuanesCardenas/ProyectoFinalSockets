@@ -92,6 +92,8 @@ public class PerfilVendedorController {
                 Pane productoPane = loader.load();
                 DetalleProductoController controller = loader.getController();
                 controller.setProducto(producto);
+                controller.setVendedorActual(vendedorActual);
+                controller.setPerfilVendedorController(this);
                 productosVBox.getChildren().add(productoPane);
             }
             muroVBox.getChildren().clear();

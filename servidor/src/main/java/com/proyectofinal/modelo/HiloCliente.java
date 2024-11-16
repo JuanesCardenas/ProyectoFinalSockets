@@ -49,7 +49,6 @@ public class HiloCliente implements Runnable {
                     out.writeObject(vendedorEncontrado);
                     out.flush();
                     break;
-
                 case "CARGAR_PRODUCTOS":
                     List<Producto> productos = null;
                     Vendedor vendedorProductos = (Vendedor) in.readObject();
@@ -84,12 +83,19 @@ public class HiloCliente implements Runnable {
                     out.writeObject(vendedorActual2);
                     out.writeObject("EXITO");
                     out.flush();
+                    break;
+                case "EDITAR_PRODUCTO":
+                    Vendedor vendedorEditarP = (Vendedor) in.readObject();
+                    Producto productoEditar = (Producto) in.readObject();
+                    MarketPlaceServicios.getInstance().editarProducto(vendedorEditarP, productoEditar);
+                    out.writeObject(vendedorEditarP);
+                    out.writeObject("EXITO");
+                    out.flush();
                     break;   
                 default:
                     out.writeObject("Comando no reconocido.");
                     out.flush();
                     break;
-                
             }
         } catch (IOException e) {
                     AdministradorLogger.getInstance().escribirLog(HiloCliente.class, "Error recibiendo el comando", Level.SEVERE);

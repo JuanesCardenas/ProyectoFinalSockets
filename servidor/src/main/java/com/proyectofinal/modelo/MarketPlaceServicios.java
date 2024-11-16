@@ -8,11 +8,11 @@ public class MarketPlaceServicios {
 
     private static MarketPlaceServicios instancia;
     private VendedorCRUD vendedorCRUD;  // Instancia de VendedorCRUD para la gestión de vendedores
-    private ProductoCRUD ProductoCRUD;
+    private ProductoCRUD productoCRUD;
 
     public MarketPlaceServicios(){
         this.vendedorCRUD = new VendedorCRUD();
-        this.ProductoCRUD = new ProductoCRUD();
+        this.productoCRUD = new ProductoCRUD();
     }
 
     // Método para obtener la única instancia de la clase
@@ -35,9 +35,16 @@ public class MarketPlaceServicios {
 
     public void eliminarProducto(Vendedor vendedor, Producto producto) throws IOException {
         vendedor.getProductos().removeIf(p -> producto.getCodigo().equals(p.getCodigo()));
-        ProductoCRUD.eliminarProducto(producto);
+        productoCRUD.eliminarProducto(producto);
         vendedorCRUD.actualizarVendedor(vendedor);
         AdministradorArchivo.eliminarImagen(producto.getImagenNombre());
+    }
+
+    public void editarProducto(Vendedor vendedor, Producto producto) throws IOException{
+        vendedor.getProductos().removeIf(p -> producto.getCodigo().equals(p.getCodigo()));
+        vendedor.getProductos().add(producto);
+        productoCRUD.actualizarProducto(producto);
+        vendedorCRUD.actualizarVendedor(vendedor);
     }
     
 }
