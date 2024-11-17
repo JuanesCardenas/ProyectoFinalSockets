@@ -38,3 +38,5 @@ nov 16, 2024 8:34:19 P. M. com.proyectofinal.modelo.AdministradorLogger escrib
 GRAVE: No se pudo abrir la ventana para ver el muro principal: javafx.fxml.LoadException: 
 /C:/Users/FELIPE/Downloads/ProyectoFinalSockets/cliente/target/classes/com/proyectofinal/muro.fxml
 
+nov 17, 2024 12:50:30 A. M. com.proyectofinal.modelo.AdministradorLogger escribirLog
+ADVERTENCIA: Nombre o cédula no coinciden.

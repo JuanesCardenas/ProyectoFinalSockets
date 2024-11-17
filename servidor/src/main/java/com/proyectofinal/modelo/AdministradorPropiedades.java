@@ -13,7 +13,7 @@ public class AdministradorPropiedades {
     public AdministradorPropiedades(){
         propiedades = new Properties();
         try {
-            propiedades.load(new FileInputStream("C:/Users/FELIPE/Downloads/servidor/src/main/resources/Config.properties"));
+            propiedades.load(new FileInputStream("C:/Users/Lenovo/Documents/4 Semestre/Programación III/ProyectoFinalSockets/ProyectoFinalSockets/servidor/src/main/resources/Config.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
