@@ -1,21 +1,29 @@
 package com.proyectofinal.modelo;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
-public class Publicacion {
+public class Publicacion implements Serializable{
     
+    private static final long serialVersionUID = 1L;
     private Producto producto;
+    private Vendedor vendedor;
     private List<Comentario> comentarios;
     private LocalDateTime fechaPublicacion;
 
     // Constructor
-    public Publicacion(Producto producto, List<Comentario> comentarios, LocalDateTime fechaPublicacion) {
+    public Publicacion(Vendedor vendedor, Producto producto, LocalDateTime fechaPublicacion) {
         this.producto = producto;
-        this.comentarios = comentarios;
+        this.comentarios = new ArrayList<>();
         this.fechaPublicacion = fechaPublicacion;
+        this.vendedor = vendedor;
     }
     // Gets y sets
+    public Vendedor getVendedor() {
+        return vendedor;
+    }
     public Producto getProducto() {
         return producto;
     }

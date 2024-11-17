@@ -3,6 +3,7 @@ package com.proyectofinal;
 import java.io.IOException;
 import java.util.logging.Level;
 
+import com.proyectofinal.controlador.MuroController;
 import com.proyectofinal.controlador.PerfilVendedorController;
 import com.proyectofinal.modelo.AdministradorLogger;
 import com.proyectofinal.modelo.Vendedor;
@@ -55,13 +56,18 @@ public class ManejadorEscenas {
         Parent root = loader.load();
         Scene newScene = new Scene(root);
 
-        PerfilVendedorController perfilController = loader.getController();
-        perfilController.setVendedorActual(vendedor);
-
-        primaryStage.setScene(newScene);
+        if ("muro".equals(fxml)) {
+            MuroController muroController = loader.getController();
+            muroController.setVendedorActual(vendedor);
+            muroController.cargarPublicaciones();
+            primaryStage.setScene(newScene);
+        }
 
         // Ajustar tamaño si es la ventana de perfil del vendedor
         if ("perfilVendedor".equals(fxml)) {
+            PerfilVendedorController perfilController = loader.getController();
+            perfilController.setVendedorActual(vendedor);
+            primaryStage.setScene(newScene);
             primaryStage.setWidth(800);
             primaryStage.setHeight(600);
         }

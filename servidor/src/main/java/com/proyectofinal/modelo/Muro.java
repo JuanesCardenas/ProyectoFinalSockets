@@ -7,7 +7,7 @@ import java.util.List;
 public class Muro implements Serializable{
     private static final long serialVersionUID = 1L;
     private List<Mensaje> mensajes;     // Lista de mensajes en el muro
-    private List<Producto> productosPublicados; // Productos que el vendedor ha publicado
+    private List<Publicacion> productosPublicados; // Productos que el vendedor ha publicado
 
 
     // Constructor
@@ -23,8 +23,8 @@ public class Muro implements Serializable{
     }
 
     // Método para agregar un producto publicado al muro
-    public void agregarProductoPublicado(Producto producto) {
-        this.productosPublicados.add(producto);
+    public void agregarProductoPublicado(Publicacion publicacion) {
+        this.productosPublicados.add(publicacion);
     }
 
     // Método para obtener todos los mensajes del muro
@@ -33,7 +33,7 @@ public class Muro implements Serializable{
     }
 
     // Método para obtener todos los productos publicados
-    public List<Producto> getProductosPublicados() {
+    public List<Publicacion> getProductosPublicados() {
         return productosPublicados;
     }
 
@@ -42,7 +42,7 @@ public class Muro implements Serializable{
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Muro de Productos Publicados:\n");
-        for (Producto producto : productosPublicados) {
+        for (Publicacion producto : productosPublicados) {
             sb.append(producto.toString()).append("\n");
         }
 

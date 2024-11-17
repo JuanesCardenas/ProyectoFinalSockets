@@ -7,7 +7,9 @@ import java.time.LocalDate;
 import java.util.ResourceBundle;
 
 import com.proyectofinal.modelo.Producto;
+import com.proyectofinal.modelo.Publicacion;
 import com.proyectofinal.modelo.Vendedor;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -50,8 +52,13 @@ public class PublicacionController {
     @FXML
     private Label precioProductoLabel;
 
+    @FXML
+    private Button solicitudContactoButton;
+
     private int cantidadLikes = 0;
     private boolean likeDado = false;
+    private Vendedor vendedorActual;
+    private Publicacion publicacion;
 
     @FXML
     void AgregarComentario() {
@@ -71,7 +78,18 @@ public class PublicacionController {
 
     }
 
-    public void setPublicacion(Vendedor vendedor, Producto producto){
+    public void SolicitudContacto(){
+
+    }
+
+    public void setVendedorActual(Vendedor vendedor) {
+        this.vendedorActual = vendedor;
+    }
+
+    public void setPublicacion(Publicacion publicacion){
+        this.publicacion = publicacion;
+        Producto producto = publicacion.getProducto();
+        Vendedor vendedor = publicacion.getVendedor();
         byte[] imagenPath = producto.getImagen(); 
 
         if (imagenPath != null && imagenPath.length > 0) {
@@ -92,6 +110,16 @@ public class PublicacionController {
         fechaPublicacionLabel.setText("Publicado el: " + LocalDate.now());
         likeLabel.setText("" + cantidadLikes);
 
+    }
+
+    public void habilitarOpciones(){
+        if(vendedorActual.getCedula() == publicacion.getVendedor().getCedula()){
+            solicitudContactoButton.setVisible(false);
+        }
+        else{
+            solicitudContactoButton.setVisible(true);
+        }
+        
     }
 
 }

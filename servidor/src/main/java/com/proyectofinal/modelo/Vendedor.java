@@ -89,9 +89,8 @@ public class Vendedor  implements Serializable {
 
     // Método para publicar un producto en el muro y la lista de productos
     public void publicarProducto(Producto producto) {
-        muro.agregarProductoPublicado(producto); // Agregar al muro
         productos.add(producto); // Agregar a la lista de productos
-
+        Publicacion publicacion = new Publicacion(this, producto, producto.getFechaPublicacion());
         // Serializar la lista de productos del vendedor
         try {
             ProductoCRUD productoCRUD = new ProductoCRUD(); // Crear instancia de ProductoCRUD
@@ -100,7 +99,13 @@ public class Vendedor  implements Serializable {
         } catch (IOException | AlreadyRegisteredUser e) {
             AdministradorLogger.getInstance().escribirLog(Vendedor.class, e.toString() + " " + "Error al registrar el producto.", java.util.logging.Level.SEVERE);
         }
-
+        try {
+            PublicacionCrud publicacionCRUD = new PublicacionCrud();
+            publicacionCRUD.registrarPublicacion(publicacion);
+            muro.agregarProductoPublicado(publicacion); // Agregar al muro
+        } catch (IOException |  AlreadyRegisteredUser e) {
+            AdministradorLogger.getInstance().escribirLog(Vendedor.class, e.toString() + " " + "Error al publicar el producto.", java.util.logging.Level.SEVERE);
+        }
         try {
             VendedorCRUD vendedorCRUD = new VendedorCRUD(); // Crear instancia de VendedorCRUD
             vendedorCRUD.actualizarVendedor(this); // Actualizar el vendedor

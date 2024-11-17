@@ -18,9 +18,11 @@ import java.net.Socket;
 import java.util.List;
 import java.util.logging.Level;
 
+import com.proyectofinal.ManejadorEscenas;
 import com.proyectofinal.modelo.AdministradorLogger;
 import com.proyectofinal.modelo.Estado;
 import com.proyectofinal.modelo.Producto;
+import com.proyectofinal.modelo.Publicacion;
 import com.proyectofinal.modelo.Vendedor;
 
 public class PerfilVendedorController {
@@ -42,6 +44,12 @@ public class PerfilVendedorController {
 
     @FXML
     private Button publicarButton;
+
+    @FXML
+    private Button estadisticasButton;
+
+    @FXML
+    private Button muroBoton;
 
     private Vendedor vendedorActual;
 
@@ -99,10 +107,11 @@ public class PerfilVendedorController {
             muroVBox.getChildren().clear();
             for (Producto producto : productos) {
                 if(producto.getEstado().equals(Estado.PUBLICADO)){
+                    Publicacion publicacion = new Publicacion(vendedorActual, producto, producto.getFechaPublicacion());
                     FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/proyectofinal/publicacion.fxml"));
                     Pane publicacionPane = loader.load();
                     PublicacionController controller = loader.getController();
-                    controller.setPublicacion(vendedorActual, producto);
+                    controller.setPublicacion(publicacion);
                     muroVBox.getChildren().add(publicacionPane);
                 }
             }
@@ -149,6 +158,22 @@ public class PerfilVendedorController {
             e.printStackTrace();
             mostrarAlerta("Error", "No se pudo abrir la ventana de eliminación. ", "Error cargando los productos");
             AdministradorLogger.getInstance().escribirLog(PerfilVendedorController.class, "No se pudo abrir la ventana de eliminación." + e.toString(), Level.WARNING);
+        }
+    }
+
+    @FXML
+    public void verEstadisticas() {
+
+    }
+
+    @FXML
+    public void verMuro() {
+        try {
+            ManejadorEscenas.cambiarEscenaConDatos("muro", vendedorActual);
+        } catch (IOException e) {
+            e.printStackTrace();
+            mostrarAlerta("Error", "No se pudo abrir la ventana para ver el muro principal.", e.toString());
+            AdministradorLogger.getInstance().escribirLog(PerfilVendedorController.class, "No se pudo abrir la ventana para ver el muro principal: " + e.toString(), Level.SEVERE);  
         }
     }
 

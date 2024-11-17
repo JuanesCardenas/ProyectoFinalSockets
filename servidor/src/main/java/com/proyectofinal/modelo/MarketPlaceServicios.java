@@ -1,6 +1,7 @@
 package com.proyectofinal.modelo;
 
 import java.io.IOException;
+import java.util.List;
 
 import com.proyectofinal.excepciones.AlreadyRegisteredUser;
 
@@ -9,10 +10,12 @@ public class MarketPlaceServicios {
     private static MarketPlaceServicios instancia;
     private VendedorCRUD vendedorCRUD;  // Instancia de VendedorCRUD para la gestión de vendedores
     private ProductoCRUD productoCRUD;
+    private PublicacionCrud publicacionCrud;
 
     public MarketPlaceServicios(){
         this.vendedorCRUD = new VendedorCRUD();
         this.productoCRUD = new ProductoCRUD();
+        this.publicacionCrud = new PublicacionCrud();
     }
 
     // Método para obtener la única instancia de la clase
@@ -45,6 +48,10 @@ public class MarketPlaceServicios {
         vendedor.getProductos().add(producto);
         productoCRUD.actualizarProducto(producto);
         vendedorCRUD.actualizarVendedor(vendedor);
+    }
+
+    public List<Publicacion> cargarPublicaciones() {
+        return publicacionCrud.obtenerTodosLasPublicaciones();
     }
     
 }

@@ -6,6 +6,7 @@ import java.net.Socket;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 
@@ -56,6 +57,12 @@ public class HiloCliente implements Runnable {
                     out.writeObject(productos);
                     out.flush();
                     break;
+                case "CARGAR_PUBLICACIONES":
+                    List<Publicacion> productosPublicados = null;
+                    productosPublicados = MarketPlaceServicios.getInstance().cargarPublicaciones();
+                    out.writeObject(productosPublicados);
+                    out.flush();
+                    break;
                 case "AGREGAR_PRODUCTO":
                         // Recibe el vendedor actual y el producto completo (incluida la imagen)
                         Vendedor vendedorActual = (Vendedor) in.readObject();
@@ -91,7 +98,20 @@ public class HiloCliente implements Runnable {
                     out.writeObject(vendedorEditarP);
                     out.writeObject("EXITO");
                     out.flush();
-                    break;   
+                    break;
+                case "CARGAR_PRODUCTOS_VENDIDOS":
+                    Vendedor vendedorVendidos = (Vendedor) in.readObject();
+                    List<Producto> productosVendedor = vendedorVendidos.getProductos();
+                    List<Producto> productosVendidos = new ArrayList<>();
+                    for(Producto p : productosVendedor){
+                        if(p.getEstado().equals(Estado.VENDIDO)){
+                            productosVendidos.add(p);
+                        }
+                    }
+                    out.writeObject(productosVendidos);
+                    out.writeObject("EXITO");
+                    out.flush();
+                break;   
                 default:
                     out.writeObject("Comando no reconocido.");
                     out.flush();

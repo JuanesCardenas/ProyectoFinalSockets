@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="309.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proyectofinal.controlador.PublicacionController">
    <children>
       <Label fx:id="nombreProductoLabel" layoutX="13.0" layoutY="12.0" text="Producto:">
@@ -50,5 +49,6 @@
             <Font size="19.0" />
          </font>
       </Label>
+      <Button fx:id="solicitudContactoButton" alignment="CENTER" layoutX="177.0" layoutY="70.0" onAction="#SolicitudContacto" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #28a745; -fx-text-fill: white;" text="Añadir Contacto" visible="false" />
    </children>
 </AnchorPane>
